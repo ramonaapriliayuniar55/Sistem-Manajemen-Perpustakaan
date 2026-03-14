@@ -16,12 +16,15 @@ $nama_pembeli = "Budi Santoso";
 $judul_buku = "Laravel Advanced";
 $harga_satuan = 150000;
 $jumlah_beli = 4;
-$is_member = true; // true atau false
+
+// Status member (member / non-member)
+$status_member = "member";
+$is_member = ($status_member == "member");
 
 // Hitung subtotal
 $subtotal = $harga_satuan * $jumlah_beli;
 
-// Tentukan persentase diskon
+// Tentukan persentase diskon berdasarkan jumlah
 $persentase_diskon = 0;
 
 if ($jumlah_beli >= 1 && $jumlah_beli <= 2) {
@@ -66,11 +69,7 @@ $total_hemat = $diskon + $diskon_member;
 
 <div class="card-body">
 
-<span class="badge bg-success mb-3">
-<?php echo $is_member ? "Member" : "Non Member"; ?>
-</span>
-
-<table class="table table-bordered">
+<table class="table table-bordered mt-3">
 
 <tr>
 <th width="250">Nama Pembeli</th>
@@ -88,8 +87,17 @@ $total_hemat = $diskon + $diskon_member;
 </tr>
 
 <tr>
-<th>Jumlah Beli</th>
+<th>Jumlah Buku Dibeli</th>
 <td><?php echo $jumlah_beli; ?> buku</td>
+</tr>
+
+<tr>
+<th>Status Member</th>
+<td><?php echo $status_member; ?></td>
+</tr>
+
+<tr class="table-secondary">
+<th colspan="2">Perhitungan:</th>
 </tr>
 
 <tr class="table-light">
