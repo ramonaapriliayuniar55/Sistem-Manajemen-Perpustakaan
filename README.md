@@ -226,8 +226,9 @@ SELECT judul, harga FROM buku ORDER BY harga DESC LIMIT 5;
 
 ![Query 17](images/query17.png)
 
-#Tugas 2 – Desain Database Perpustakaan Lengkap
 
+
+# Tugas 2 – Eksplorasi Database Perpustakaan
 
 ## Struktur Tabel
 
@@ -274,6 +275,6 @@ SELECT judul, harga FROM buku ORDER BY harga DESC LIMIT 5;
 ![Procedure 2](images/hasil_call_prosedur_tampilkansemuabuku.jpeg)
 
 ---
-## 🗺️ ERD
+## ERD
 
-![ERD](images/ERD.jpeg)
+![ERD](images/erd.jpeg)
