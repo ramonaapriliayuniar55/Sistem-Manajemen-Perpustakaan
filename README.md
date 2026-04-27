@@ -283,4 +283,4 @@ Repository ini berisi implementasi desain database perpustakaan menggunakan MySQ
 ---
 ## ERD
 
-![erd](images/erd.jpeg)
+![ERD](images/ERD.jpeg)
