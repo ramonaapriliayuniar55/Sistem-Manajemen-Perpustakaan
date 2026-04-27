@@ -225,3 +225,55 @@ SELECT judul, harga FROM buku ORDER BY harga DESC LIMIT 5;
 ```
 
 ![Query 17](images/query17.png)
+
+Tugas 2 – Desain Database Perpustakaan Lengkap
+
+
+## Struktur Tabel
+
+### Struktur Buku
+![Struktur Buku](images/struktur_buku.png)
+
+### Struktur Kategori Buku
+![Struktur Kategori](images/struktur_kategori_buku.png)
+
+### Struktur Penerbit
+![Struktur Penerbit](images/strukturpenerbit.png)
+
+## Data Tabel
+
+### Data Buku
+![Data Buku](images/isi_data_buku.png)
+
+### Data Kategori Buku
+![Data Kategori](images/isi_data_kategori_buku.png)
+
+### Data Penerbit
+![Data Penerbit](images/isi_tabel_penerbit.png)
+
+## Hasil JOIN
+
+### JOIN Buku
+![Join Buku](images/join_buku.png)
+
+### JOIN Kategori
+![Join Kategori](images/join_kategori.png)
+
+### JOIN Penerbit
+![Join Penerbit](images/join_penerbit.png)
+
+### JOIN Rak
+![Join Rak](images/join_rak.png)
+
+## Stored Procedure
+
+### Hasil Procedure Buku Programming
+![Procedure 1](images/hasil_call_procedur_bukuprogrming.png)
+
+### Hasil Procedure Tampilkan Semua Buku
+![Procedure 2](images/hasil_call_prosedur_tampilkansemuabuku.png)
+
+---
+## 🗺️ ERD
+
+![ERD](images/ERD.png)
