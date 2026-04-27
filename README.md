@@ -275,7 +275,7 @@ Repository ini berisi implementasi desain database perpustakaan menggunakan MySQ
 ## Stored Procedure
 
 ### Hasil Procedure Buku Programming
-![Procedure 1](images/hasil_call_procedur_bukuprogrming.jpeg)
+![Procedure 1](images/hasil_call_procedur_bukuprograming.jpeg)
 
 ### Hasil Procedure Tampilkan Semua Buku
 ![Procedure 2](images/hasil_call_prosedur_tampilkansemuabuku.jpeg)
