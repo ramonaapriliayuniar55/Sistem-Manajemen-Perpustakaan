@@ -230,6 +230,12 @@ SELECT judul, harga FROM buku ORDER BY harga DESC LIMIT 5;
 
 # Tugas 2 – Eksplorasi Database Perpustakaan
 
+## Deskripsi
+
+Repository ini berisi implementasi desain database perpustakaan menggunakan MySQL dengan relasi antar tabel, query JOIN, stored procedure, dan ERD.
+
+---
+
 ## Struktur Tabel
 
 ### Struktur Buku
